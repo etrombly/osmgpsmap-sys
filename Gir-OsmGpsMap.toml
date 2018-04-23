@@ -1,0 +1,12 @@
+[options]
+girs_dir = "gir-files"
+library = "OsmGpsMap"
+version = "1.0"
+min_cfg_version = "1.0"
+work_mode = "sys"
+target_path = "osmgpsmap-sys"
+generate_safety_asserts = true
+
+generate = [
+    "OsmGpsMap.OsmGpsMap",
+]

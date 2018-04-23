@@ -15,11 +15,3 @@ external_libraries = [
     "Gdk",
     "GdkPixbuf"
 ]
-
-generate = [
-    "OsmGpsMap.OsmGpsMap",
-    "OsmGpsMap.OsmGpsMapLayer",
-    "OsmGpsMap.OsmGpsMapImage",
-    "OsmGpsMap.OsmGpsMapTrack",
-    "OsmGpsMap.OsmGpsMapPoint",
-]

@@ -7,6 +7,15 @@ work_mode = "sys"
 target_path = "osmgpsmap-sys"
 generate_safety_asserts = true
 
+external_libraries = [
+    "GLib",
+    "GObject",
+    "Gtk",
+    "Cairo",
+    "Gdk",
+    "GdkPixbuf"
+]
+
 generate = [
     "OsmGpsMap.OsmGpsMap",
 ]

@@ -14,7 +14,7 @@ fn main() {
 }
 
 fn find() -> Result<(), Error> {
-    let package_name = "osmgpsmap";
+    let package_name = "osmgpsmap-1.0";
     let shared_libs = ["osmgpsmap-1.0"];
     let version = {
         "1.0"

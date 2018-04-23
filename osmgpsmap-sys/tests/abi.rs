@@ -13,7 +13,7 @@ use std::process::Command;
 use std::str;
 use osm_gps_map_sys::*;
 
-static PACKAGES: &[&str] = &["osmgpsmap"];
+static PACKAGES: &[&str] = &["osmgpsmap-1.0"];
 
 #[derive(Clone, Debug)]
 struct Compiler {

@@ -5,6 +5,12 @@
 #![allow(non_camel_case_types, non_upper_case_globals, non_snake_case)]
 
 extern crate libc;
+extern crate glib_sys as glib;
+extern crate gobject_sys as gobject;
+extern crate gtk_sys as gtk;
+extern crate cairo_sys as cairo;
+extern crate gdk_sys as gdk;
+extern crate gdk_pixbuf_sys as gdk_pixbuf;
 
 #[allow(unused_imports)]
 use libc::{c_int, c_char, c_uchar, c_float, c_uint, c_double,

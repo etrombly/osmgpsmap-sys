@@ -2,6 +2,12 @@
 pkg-config = "0.3.7"
 
 [dependencies]
+cairo-sys-rs = "0.6"
+gdk-sys = "0.6"
+glib-sys = "0.6"
+gobject-sys = "0.6"
+gtk-sys = "0.6"
+gdk-pixbuf-sys = "0.6"
 libc = "0.2"
 
 [dev-dependencies]

@@ -23,5 +23,10 @@ name = "osm_gps_map_sys"
 [package]
 build = "build.rs"
 links = "osm_gps_map"
-name = "osm-gps-map-sys"
+name = "osmgpsmap-sys"
 version = "0.2.0"
+authors = ["Eric Trombly <etrombly@gmail.com>"]
+description = "FFI bindings to OsmGpsMap-1.0"
+repository = "https://github.com/etrombly/osmgpsmap-sys"
+license = "MIT"
+readme = "README.md"

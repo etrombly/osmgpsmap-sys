@@ -18,4 +18,8 @@ external_libraries = [
 
 generate = [
     "OsmGpsMap.OsmGpsMap",
+    "OsmGpsMap.OsmGpsMapLayer",
+    "OsmGpsMap.OsmGpsMapImage",
+    "OsmGpsMap.OsmGpsMapTrack",
+    "OsmGpsMap.OsmGpsMapPoint",
 ]

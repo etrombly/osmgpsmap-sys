@@ -3,11 +3,11 @@ pkg-config = "0.3.7"
 
 [dependencies]
 cairo-sys-rs = "0.6"
+gdk-pixbuf-sys = "0.6"
 gdk-sys = "0.6"
 glib-sys = "0.6"
 gobject-sys = "0.6"
 gtk-sys = "0.6"
-gdk-pixbuf-sys = "0.6"
 libc = "0.2"
 
 [dev-dependencies]
@@ -21,12 +21,12 @@ dox = []
 name = "osm_gps_map_sys"
 
 [package]
+authors = ["Eric Trombly <etrombly@gmail.com>"]
 build = "build.rs"
+description = "FFI bindings to OsmGpsMap-1.0"
+license = "MIT"
 links = "osm_gps_map"
 name = "osmgpsmap-sys"
-version = "0.2.0"
-authors = ["Eric Trombly <etrombly@gmail.com>"]
-description = "FFI bindings to OsmGpsMap-1.0"
-repository = "https://github.com/etrombly/osmgpsmap-sys"
-license = "MIT"
 readme = "README.md"
+repository = "https://github.com/etrombly/osmgpsmap-sys"
+version = "0.2.0"
